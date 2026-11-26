@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #7ec8e3, #0a5c8a);
+    margin: 40px auto;
+    font-family: "Times New Roman", Times, serif;
+}
+.bai-viet{
+    background-color: rgba(255,255,255,0.95);
+    width:820px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.sapo{
+    color: #FFFFFF;
+    background-color:#0b3d5c;
+    font-style: italic;
+    padding: 14px 18px;
+    border-radius: 6px;
+} 
+p.than-bai::first-letter{
+    color: #0b3d5c;
+    font-size: 3rem;
+    float: left;
+    line-height: 0.85; 
+    padding: 0.1 rem 0.4rem 0 0;
+}
+.than-bai{
+    font-size: 1.15rem;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.4rem 0 0;
+    
+}
+.anh{
+    float: right;
+    border-radius: 10px;
+    width: 280px;
+    height: auto;
+    margin: 0 0 12px 18px;
+}
+h1{
+    text-align: center;
+    color: #0b3d5c;
+}
