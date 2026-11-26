@@ -1,7 +1,7 @@
 
               .banner {
                 background: linear-gradient(160deg,#C9A227, #A8861B);
-                padding: 28px 36px;
+                padding: 28px 36px 60px;
                 box-shadow: 0 0 10px rgba(0,0,0,0.5);
                 color: #FFFFFF;
                 width: 820px;
@@ -17,6 +17,11 @@
               p{
                 text-align: justify;
                 color: #FFFFFF;
+                font-size: 1.1rem;
+                line-height: 1.6;
+                letter-spacing: 0.02em;
+                padding: 0.1rem 0.4rem 0 0;
+                margin: 0 0 12px 0;
               }
               .anh-noi{
                 width: 260px;
@@ -24,5 +29,9 @@
                 float: right;
                 margin: 0 0 14px 18px;
                 border-radius: 4px;
+              }
+              body{
+                min-height: 100vh;
+                font-family: "Times New Roman", Times, serif;
               }
               
