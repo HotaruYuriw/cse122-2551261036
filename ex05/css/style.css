@@ -1,0 +1,62 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Times New Roman', serif;
+}
+h1{
+    text-align:center;
+    color:#C2185B;
+    margin: 0 0 22px;
+
+}
+ul{
+    line-height: 1.9;
+    padding-left: 20px;
+}
+li{
+    font-size:16px;
+}
+.ds-vuong{
+    list-style-type: square;
+}
+.ds-tron{
+    list-style-type: circle;
+
+}
+p{
+    float: right;
+    text-align: center;
+    color: #0000EE;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.4rem 0 0;
+    margin: 0 0 12px 0;
+    font-style: italic;
+    text-decoration: underline;
+}
+.bocuc-2-cot{
+    display: grid;
+    grid-template-columns: 220px auto; 
+    justify-content: center;           
+    align-items: start;                
+    gap: 24px;                         
+    margin-bottom: 20px;
+}
+.nhan-muc{
+    background-color: #FFC0CB;
+    display: inline-block; 
+    padding: 4px 10px; 
+    font-size: 20px;
+}
+.anh-banner{
+    float: left;
+    width: 220px;
+    height: 90%;
+    margin: 0 12px 12px 0;
+}
+.bai-viet{
+    background-color: rgba(255,255,255);
+    width:65%;
+    margin: 40px auto;
+    padding: 28px;
+}
